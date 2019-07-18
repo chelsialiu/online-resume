@@ -253,8 +253,8 @@ a:hover {
 /*------/ Ico Circle /------*/
 
 .ico-circle {
-  height: 300px;
-  width: 300px;
+  height: 150px;
+  width: 150px;
   font-size: 2rem;
   border-radius: 50%;
   line-height: 1.55;
@@ -619,7 +619,7 @@ a:hover {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.3;
+  opacity: 0.18;
 }
 
 .intro .intro-title {
@@ -684,6 +684,10 @@ a:hover {
   margin-left: 10px;
 }
 
+.about-info {
+    padding-left: 10px;
+}
+
 .skill-mf span {
   color: #4e4e4e;
 }
@@ -740,12 +744,9 @@ a:hover {
 }
 
 .ico-circle .education-logo {
-    height: 245px;
-    width: 260px;
-    padding-top: 60px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    height: 110px;
+    width: 123px;
+    padding-top: 30px;
 }
 
 /*======================================
@@ -1072,6 +1073,17 @@ a:hover {
 
 .contact-mf {
   margin-top: 4rem;
+}
+
+.contact-me-img {
+    transform:rotate(2deg);
+    height: 300px;
+    width: 300px;
+    padding-top: 20px;
+}
+
+#contact-me-box {
+    text-align: center;
 }
 
 /*======================================
