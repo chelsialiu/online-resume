@@ -51,7 +51,9 @@
                     href="#driveacq">Drive Acquisition</a> |
                 <a href="#networkdriveacq">Networked Drive Acquisition</a>
                 <br>
-                <a href="#networkanalysis">Network Analysis</a> | Memory Analysis | Drive Analysis | Malware Analysis | Reverse Engineering
+                <a href="#networkanalysis">Network Analysis</a> | <a href="#memoryanalysis">Memory Analysis</a> | <a
+                    href="#driveanalysis">Drive Analysis</a> | Malware Analysis |
+                Reverse Engineering
             </div>
         </div>
 
@@ -245,71 +247,6 @@
                                         router's support articles online <a
                                             href="https://kb.netgear.com/21852/How-do-I-specify-the-source-mirrored-ports-and-destinations-probe-using-the-web-interface-on-my-managed-switch"
                                             style="color: blue;"> like this one</a> for help
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Blog Post -->
-            <div class="card mb-4">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h2 class="card-title">Wireshark</h2>
-                        </div>
-                        <div class="col-md-6" style="padding-top: 10px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p class="card-text">Wireshark is a widely used network packet analyzer. It is free and
-                                open-source. It has many capabilities such as
-                                network troubleshooting, analysis, and protocol development.
-                            </p>
-
-                            <div>
-                                <p class="tool-detail-headers">Personal Review</p>
-                                <p>This software is very robust yet simple to use. Once a packet has been captured,
-                                    numerous analyses can be performed on it
-                                    and packet information can range from protocols to hexdecimal values.
-                                </p>
-                            </div>
-
-                            <div>
-                                <p class="tool-detail-headers">Personal Notes on Usage</p>
-                                <ul>
-                                    <li>With so many tools and functionalities within Wireshark, it can be overwhelming
-                                    </li>
-                                    <li>Read documentation online to learn about helpful <b>features and filters</b> you
-                                        can use
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <img class="tool-image" src="img/wireshark.png_225" alt="Wireshark" style="height: 200px;">
-                            <figcaption class="tool-image-caption">Photo Credit: https://wireshark.en.uptodown.com/mac
-                            </figcaption>
-                            <br>
-                            <div>
-                                <p class="tool-detail-headers">Sources</p>
-                                <ul>
-                                    <li>
-                                        <p>Source URL: <a href=" https://www.wireshark.org/download.html"
-                                                style="color: blue;">https://www.wireshark.org/download.html</a></p>
-                                    </li>
-                                    <li>
-                                        <p>Local Source: N/A</p>
                                     </li>
                                 </ul>
                             </div>
@@ -607,7 +544,8 @@
                                 <p class="tool-detail-headers">Personal Notes on Usage</p>
                                 <ul>
                                     <li>In order to use LiME, you have to <b>create a make file</b></li>
-                                    <li>Although there are not many resources out there about LiME, the Git repo listed or the Source URL is a good place to start
+                                    <li>Although there are not many resources out there about LiME, the Git repo listed
+                                        or the Source URL is a good place to start
                                     </li>
                                 </ul>
                             </div>
@@ -643,7 +581,7 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-6">
-                            <h2 class="card-title">Netcat</h2>
+                            <h2 class="card-title">Snort</h2>
                         </div>
                         <div class="col-md-6" style="padding-top: 10px;">
                             <img src="img/star.png" height="30px;">
@@ -655,44 +593,42 @@
 
                     <div class="row">
                         <div class="col-md-6">
-                            <p class="card-text">Netcat is a computer networking tool that reads from and writes to
-                                network connections established using TCP or UDP protocol. For example, it can be
-                                utilized to read
-                                evidence and data from one machine and write it to an output file on another
-                                machine.
+                            <p class="card-text">Snort is an open source network intrusion detection system (IDS). It
+                                can monitor network traffic in real time and allow for close analysis of each packet for
+                                suspicious or malicious anomalies.
                             </p>
 
                             <div>
                                 <p class="tool-detail-headers">Personal Review</p>
-                                <p>The process to copy a hard drive was simple - within five steps, this imaging tool
-                                    can complete the task. I found the tool to be very helpful, easy-to-use, and secure.
-                                    The best thing is that it is a command-line tool, so no dowloading of software is
-                                    necessary.
+                                <p>Snort is a useful tool since it can function as both an IDS and and IPS. Although the
+                                    software is free, I wished I did not have to create an account with Snort to
+                                    download it.
                                 </p>
                             </div>
 
                             <div>
                                 <p class="tool-detail-headers">Personal Notes on Usage</p>
                                 <ul>
-                                    <li>To use Netcat, use the <b>nc [options] [host] [port]</b> syntax in the Command
-                                        Prompt</li>
-                                    <li>Being new to Netcat, this is a <a
-                                            href="https://kapeli.com/cheat_sheets/Netcat.docset/Contents/Resources/Documents/index"
-                                            style="color: blue;">cheat sheet </a> with helpful commands</li>
+                                    <li>Although Snort is a great tool, it is best to <b>use multiple analysis tools</b>
+                                        to detect malicious or suspicious activity; some tools might catch things other
+                                        tools might not</li>
+                                    <li>Snort is mainly used as an intrusion <b>detection</b> system (IDS), but it can
+                                        be programmed to be an intrusion <b>preventio </b> system (IPS) as well</li>
                                 </ul>
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <img class="tool-image" src="img/netcat.png" alt="Netcat">
+                            <img class="tool-image" src="img/snort.jpg" alt="Snort">
                             <figcaption class="tool-image-caption">Photo Credit:
-                                https://www.tecmint.com/netcat-nc-command-examples/</figcaption>
+                                https://xebialabs.com/technology/snort/</figcaption>
                             <br>
                             <div>
                                 <p class="tool-detail-headers">Sources</p>
                                 <ul>
                                     <li>
-                                        <p>Source URL: N/A</p>
+                                        <p>Source URL: <a href="https://www.snort.org/"
+                                                style="color: blue;">https://www.snort.org/</a></p>
                                     </li>
                                     <li>
                                         <p>Local Source: N/A</p>
@@ -709,10 +645,9 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-6">
-                            <h2 class="card-title">dd</h2>
+                            <h2 class="card-title">Wireshark</h2>
                         </div>
                         <div class="col-md-6" style="padding-top: 10px;">
-                            <img src="img/star.png" height="30px;">
                             <img src="img/star.png" height="30px;">
                             <img src="img/star.png" height="30px;">
                             <img src="img/star.png" height="30px;">
@@ -722,37 +657,42 @@
 
                     <div class="row">
                         <div class="col-md-6">
-                            <p class="card-text">This is a command-line tool for Unix and Linux OS. It can be used to
-                                convert and copy files during networked drive
-                                acquisitions.
+                            <p class="card-text">Wireshark is a widely used network packet analyzer as it analyzes all
+                                traffic passed over a network. It is free and
+                                open-source. It has many capabilities such as
+                                network troubleshooting, analysis, and protocol development.
                             </p>
 
                             <div>
                                 <p class="tool-detail-headers">Personal Review</p>
-                                <p>Again, one advantage of using dd over other tools is that is a command-line tool.
+                                <p>This software is very robust and it can be overwhelming at times with so many tools
+                                    and features. However, once a packet has been captured,
+                                    a wide range of information and analyses are available.
                                 </p>
                             </div>
 
                             <div>
                                 <p class="tool-detail-headers">Personal Notes on Usage</p>
                                 <ul>
-                                    <li>The syntax for using dd in the Command Prompt is <b>dd [operand]...</b>
+                                    <li>Read documentation online to learn about all the helpful <b>features and
+                                            filters</b> you
+                                        can use (i.e. Exporting an HTTP object list)
                                     </li>
                                 </ul>
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <img class="tool-image" src="img/dd.png" alt="dd Tool">
-                            <figcaption class="tool-image-caption">Picture Cred:
-                                https://www.tecmint.com/clone-linux-partitions/
+                            <img class="tool-image" src="img/wireshark.png_225" alt="Wireshark" style="height: 200px;">
+                            <figcaption class="tool-image-caption">Photo Credit: https://wireshark.en.uptodown.com/mac
                             </figcaption>
                             <br>
                             <div>
                                 <p class="tool-detail-headers">Sources</p>
                                 <ul>
                                     <li>
-                                        <p>Source URL: N/A</p>
+                                        <p>Source URL: <a href=" https://www.wireshark.org/download.html"
+                                                style="color: blue;">https://www.wireshark.org/download.html</a></p>
                                     </li>
                                     <li>
                                         <p>Local Source: N/A</p>
@@ -769,9 +709,11 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-6">
-                            <h2 class="card-title">LiME</h2>
+                            <h2 class="card-title">VirusTotal</h2>
                         </div>
                         <div class="col-md-6" style="padding-top: 10px;">
+                            <img src="img/star.png" height="30px;">
+                            <img src="img/star.png" height="30px;">
                             <img src="img/star.png" height="30px;">
                             <img src="img/star.png" height="30px;">
                             <img src="img/star.png" height="30px;">
@@ -780,40 +722,181 @@
 
                     <div class="row">
                         <div class="col-md-6">
-                            <p class="card-text">LiME is a LKM, or a Loadable Kernal Module. It is used to acquire and
-                                fully capture volatile memory.
+                            <p class="card-text">VirusTotal is a simple yet powerful website. It combines multiple
+                                antivirus products and online scan engines to check for viruses and/or malware on
+                                suspicious files or URLs.
                             </p>
 
                             <div>
                                 <p class="tool-detail-headers">Personal Review</p>
-                                <p>Compared to other tools, LiME was a bit difficult to use since there was not a lot of
-                                    documentation or resources. After taking a while to get things set up, the process
-                                    was relatively easy to acquire the memory dumps.
+                                <p>I loved using VirusTotal! The website interface was intuitive and it was easy to see
+                                    which files were suspicious or identified as common malware.
                                 </p>
                             </div>
 
                             <div>
                                 <p class="tool-detail-headers">Personal Notes on Usage</p>
                                 <ul>
-                                    <li>In order to use LiME, you have to <b>create a make file</b></li>
-                                    <li>Although there are not many resources out there about LiME, the Git repo listed or the Source URL is a good place to start
+                                    <li>Keep in mind that you <b>do not have to download the suspicious file</b> before
+                                        using VirusTotal to analyze it</li>
+                                    <li>VirusTotal is pretty robust and can analyze suspect <b>files, URLs, IP
+                                            addresses, domains, or file hashes</b>
                                     </li>
                                 </ul>
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <img class="tool-image" src="img/lime.jpg" alt="LiME Tool">
+                            <img class="tool-image" src="img/virus-total.jpg" alt="Virus Total">
+                            <figcaption class="tool-image-caption">Picture Cred:
+                                https://en.wikipedia.org/wiki/VirusTotal
+                            </figcaption>
+                            <br>
+                            <div>
+                                <p class="tool-detail-headers">Sources</p>
+                                <ul>
+                                    <li>
+                                        <p>Source URL: <a href="https://www.virustotal.com/"
+                                                style="color: blue;">https://www.virustotal.com/</a></p>
+                                    </li>
+                                    <li>
+                                        <p>Local Source: N/A</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <h5 id="memoryanalysis" class="title-left">MEMORY ANALYSIS</h5>
+
+            <!-- Blog Post -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="card-title">Volatility</h2>
+                        </div>
+                        <div class="col-md-6" style="padding-top: 10px;">
+                            <img src="img/star.png" height="30px;">
+                            <img src="img/star.png" height="30px;">
+                            <img src="img/star.png" height="30px;">
+                            <img src="img/star.png" height="30px;">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="card-text">Volatility is an open source software program used to analyze volatile
+                                memory (RAM) of a system. Using a variety of
+                                commands, a memory file can be analyzed to reveal details behind an attack.
+                            </p>
+
+                            <div>
+                                <p class="tool-detail-headers">Personal Review</p>
+                                <p>This is a great tool to use to when performing a memory analysis. It was interesting
+                                    to see how even a slight change in a command (i.e. <b>psxview</b> vs <b>psscan</b>)
+                                    could result in very different outputs.
+                                </p>
+                            </div>
+
+                            <div>
+                                <p class="tool-detail-headers">Personal Notes on Usage</p>
+                                <ul>
+                                    <li>Volatility uses Python 2.6 or higher, <b>not</b> Python 3</li>
+                                    <li>There are lots of possible commands and, as a result, lots of different outputs.
+                                        Depending on what specific information you are looking for, <b>be sure to use
+                                            the right command</b></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <img class="tool-image" src="img/volatility.png" alt="Volatility">
                             <figcaption class="tool-image-caption">Photo Credit:
-                                https://www.darknet.org.uk/2015/10/lime-linux-memory-extractor/</figcaption>
+                                https://github.com/volatilityfoundation/volatility</figcaption>
                             <br>
                             <div>
                                 <p class="tool-detail-headers">Sources</p>
                                 <ul>
                                     <li>
                                         <p>Source URL:
-                                            <br>sudo git clone <a href="https://github.com/504ensicsLabs.LiME.git"
-                                                style="color: blue;">https://github.com/504ensicsLabs.LiME.git</a></p>
+                                            <br>sudo git clone <a
+                                                href="https://github.com/volatilityfoundation/volatility"
+                                                style="color: blue;">https://github.com/volatilityfoundation/volatility</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>Local Source: <a href="/img/Volatility Field Manual.pdf"
+                                                style="color: blue;">Volatility Field Manual</a></p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h5 id="driveanalysis" class="title-left">DRIVE ANALYSIS</h5>
+
+            <!-- Blog Post -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="card-title">FTK</h2>
+                        </div>
+                        <div class="col-md-6" style="padding-top: 10px;">
+                            <img src="img/star.png" height="30px;">
+                            <img src="img/star.png" height="30px;">
+                            <img src="img/star.png" height="30px;">
+                            <img src="img/star.png" height="30px;">
+                            <img src="img/star.png" height="30px;">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="card-text">Forensic Toolkit, or FTK, is a computer forensics software made by
+                                AccessData. FTK
+                                scans a hard drive looking for various information using an aggregation of the most
+                                common forensic tools.
+                            </p>
+
+                            <div>
+                                <p class="tool-detail-headers">Personal Review</p>
+                                <p>I was amazed at all the available functionalities in FTK. After loading an image into
+                                    the software, there were so many tools and views of the image file. Everything was
+                                    well-organized by tab, which was very helpful.
+                                </p>
+                            </div>
+
+                            <div>
+                                <p class="tool-detail-headers">Personal Notes on Usage</p>
+                                <ul>
+                                    <li>Similar to Wireshark, there are lots of available features. Read documentation
+                                        online to learn about all the helpful features you can use</li>
+                                    <li>It might be helpful to <b>create separate and unique bookmakrs</b> in FTK to
+                                        store evidence you find, depending on where you found the evidence in FTK</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <img class="tool-image" src="img/ftk.png" alt="FTK">
+                            <figcaption class="tool-image-caption">Photo Credit:
+                                https://forensicstore.com/product/forensic-toolkit-6-2/</figcaption>
+                            <br>
+                            <div>
+                                <p class="tool-detail-headers">Sources</p>
+                                <ul>
+                                    <li>
+                                        <p>Source URL:
+                                            <a href="https://accessdata.com/product-download/forensic-toolkit-ftk-version-7.1.0"
+                                                style="color: blue;">https://accessdata.com/product-download/forensic-toolkit-ftk-version-7.1.0</a>
+                                        </p>
                                     </li>
                                     <li>
                                         <p>Local Source: N/A</p>
