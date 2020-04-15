@@ -26,10 +26,24 @@
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!-- <div class="card-header forensics-topics">
+                <div class="center">
+                    <a href="#seizure" style="color: lightseagreen;">Seizure</a> | <a href="#networkacq"
+                        style="color: lightseagreen;">Network
+                        Acquisition</a> | <a href="#driveacq" style="color:lightseagreen;">Drive Acquisition</a> |
+                    <a href="#networkdriveacq" style="color: lightseagreen;">Networked Drive Acquisition</a>
+                    <br>
+                    <a href="#networkanalysis" style="color: lightseagreen;">Network Analysis</a> | <a
+                        href="#memoryanalysis" style="color: lightseagreen;">Memory Analysis</a> | <a
+                        href="#driveanalysis" style="color: lightseagreen;">Drive
+                        Analysis</a> | <a href="#malwareanalysis" style="color: lightseagreen;">Malware Analysis</a> |
+                    <a href="#reverseengineering" style="color: lightseagreen;">Reverse Engineering</a>
+                </div>
+            </div> -->
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Back to Home
+                        <a class="nav-link" href="index.html">Back to Home (chelsialiu.com)
                         </a>
                     </li>
                 </ul>
@@ -39,7 +53,8 @@
 
     <h5 class="intro-forensics">This is a web page of <b>tools</b> and <b>guides</b> I have used in
         deploying digital forensic techniques.</h5>
-    <p class="center">Click on the following topics which are common in digital forensics and incident response: </p>
+
+    <!-- <p class="center">Click on and jump to the following topics which are common in digital forensics and incident response: </p> -->
 
     <!-- Page Content -->
     <div class="container">
@@ -47,65 +62,20 @@
         <!-- Topics Row -->
         <div class="card-header forensics-topics">
             <div class="center">
-                <a href="#seizure">Seizure</a> | <a href="#networkacq">Network Acquisition</a> | <a
-                    href="#driveacq">Drive Acquisition</a> |
-                <a href="#networkdriveacq">Networked Drive Acquisition</a>
+                <a href="#seizure" style="color: lightseagreen;">Seizure</a> | <a href="#networkacq"
+                    style="color: lightseagreen;">Network
+                    Acquisition</a> | <a href="#driveacq" style="color:lightseagreen;">Drive Acquisition</a> |
+                <a href="#networkdriveacq" style="color: lightseagreen;">Networked Drive Acquisition</a>
                 <br>
-                <a href="#networkanalysis">Network Analysis</a> | <a href="#memoryanalysis">Memory Analysis</a> | <a
-                    href="#driveanalysis">Drive Analysis</a> | Malware Analysis |
-                Reverse Engineering
+                <a href="#networkanalysis" style="color: lightseagreen;">Network Analysis</a> | <a
+                    href="#memoryanalysis" style="color: lightseagreen;">Memory Analysis</a> | <a href="#driveanalysis"
+                    style="color: lightseagreen;">Drive
+                    Analysis</a> | <a href="#malwareanalysis" style="color: lightseagreen;">Malware Analysis</a> |
+                <a href="#reverseengineering" style="color: lightseagreen;">Reverse Engineering</a>
             </div>
         </div>
 
         <div class="row divider">
-
-            <!-- Sidebar Widgets Column -->
-            <!-- <div class="col-md-4"> -->
-
-            <!-- Side Widget -->
-            <!-- <div class="card my-4">
-                    <h5 class="card-header">Side Widget</h5>
-                    <div class="card-body">
-                        You can put anything you want inside of these side widgets. They are easy to use, and feature
-                        the new Bootstrap 4 card containers!
-                    </div>
-                </div> -->
-
-            <!-- Categories Widget -->
-            <!-- <div class="card my-4">
-                    <h5 class="card-header">Categories</h5>
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <ul class="list-unstyled mb-0">
-                                    <li>
-                                        <a href="#">Seizure</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Network Acquisition</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Drive Acquisition</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-6">
-                                <ul class="list-unstyled mb-0">
-                                    <li>
-                                        <a href="#">Networked Drive Acquisition</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Network Analysis</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Memory Analysis</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
 
             <!-- Blog Entries Column -->
             <h5 id="seizure" class="title-left">SEIZURE</h5>
@@ -117,12 +87,12 @@
                         <div class="col-md-6">
                             <h2 class="card-title">OSXPMem Tool</h2>
                         </div>
-                        <div class="col-md-6" style="padding-top: 10px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
+                        <div class="star-box col-md-6">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
                         </div>
                     </div>
 
@@ -135,8 +105,8 @@
 
                             <div>
                                 <p class="tool-detail-headers">Personal Review</p>
-                                <p>This was a great and easy-to-use memory acquisition tool! Not only is the tool
-                                    open-source, there is also
+                                <p>This is a great and easy-to-use memory acquisition tool! Not only is the tool
+                                    open source, there is also
                                     plenty of documentation and community help resources if you run into any issues.
                                 </p>
                             </div>
@@ -187,11 +157,11 @@
                         <div class="col-md-6">
                             <h2 class="card-title">Port Mirroring</h2>
                         </div>
-                        <div class="col-md-6" style="padding-top: 10px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
+                        <div class="star-box col-md-6">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
                         </div>
                     </div>
 
@@ -205,24 +175,26 @@
 
                             <div>
                                 <p class="tool-detail-headers">Personal Review</p>
-                                <p>This is a very effective technique to use when performing a network acquisition. Once
-                                    the necessary
-                                    hardware (i.e. Windows machine, switch, router, etc.) is set up properly, the
-                                    process is pretty straightfroward to
-                                    mirror ports.
+                                <p>This is a very effective technique to use when performing a network acquisition. The
+                                    most tricky of port mirroring is ensuring all the hardware (i.e. Windows machine,
+                                    switch, router, etc.) is set up properly. Once this is done, the
+                                    process is pretty straightfroward to mirror ports.
                                 </p>
                             </div>
 
                             <div>
                                 <p class="tool-detail-headers">Personal Notes on Usage</p>
                                 <ul>
-                                    <li>The most tricky part of port mirroring is ensuring all the hardware is set up
-                                        properly</li>
+                                    <li>Be sure the hardware devices you are using are all <b>on the same subnet</b>
+                                    </li>
                                     <li>Before beginning, it might be helpful to <b>perform a factory reset</b> on the
                                         switch to revert back to
                                         its default IP address
                                     </li>
-                                    <li>Be sure the hardware devices you are using are all <b>on the same subnet</b>
+                                    <li>There are no specific sources for port mirroring. However, refer to a specific
+                                        router's support articles online <a
+                                            href="https://kb.netgear.com/21852/How-do-I-specify-the-source-mirrored-ports-and-destinations-probe-using-the-web-interface-on-my-managed-switch"
+                                            style="color: blue;"> like this one</a> for help
                                     </li>
                                 </ul>
                             </div>
@@ -243,11 +215,6 @@
                                     <li>
                                         <p>Local Source: N/A</p>
                                     </li>
-                                    <li>There are no specific sources for port mirroring. However, refer to a specific
-                                        router's support articles online <a
-                                            href="https://kb.netgear.com/21852/How-do-I-specify-the-source-mirrored-ports-and-destinations-probe-using-the-web-interface-on-my-managed-switch"
-                                            style="color: blue;"> like this one</a> for help
-                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -264,12 +231,11 @@
                         <div class="col-md-6">
                             <h2 class="card-title">FTK Imager</h2>
                         </div>
-                        <div class="col-md-6" style="padding-top: 10px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
+                        <div class="star-box col-md-6">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
                         </div>
                     </div>
 
@@ -281,7 +247,7 @@
 
                             <div>
                                 <p class="tool-detail-headers">Personal Review</p>
-                                <p>The process to copy a hard drive was simple - within five steps, this imaging tool
+                                <p>The process to copy a hard drive is simple - within five steps, this imaging tool
                                     can complete the task. I found the tool to be very helpful, easy-to-use, and secure.
                                 </p>
                             </div>
@@ -289,7 +255,7 @@
                             <div>
                                 <p class="tool-detail-headers">Personal Notes on Usage</p>
                                 <ul>
-                                    <li>Each of the five steps is guided and simple to understand.</li>
+                                    <li>Each of the five steps is guided and simple to understand</li>
                                     <li>Depending on the size of the drive being copied, the process to copy it could
                                         take anywhere from a few seconds to a few hours; <b>plan accordingly</b></li>
                                 </ul>
@@ -327,24 +293,26 @@
                         <div class="col-md-6">
                             <h2 class="card-title">UltraBlock-IDE Write Blocker</h2>
                         </div>
-                        <div class="col-md-6" style="padding-top: 10px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
+                        <div class="star-box col-md-6">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-md-6">
-                            <p class="card-text">Write-blockers are portable tools used in drive acquisitions. It allows
-                                read-only access to data storage devices without compromising the integrity of the data
+                            <p class="card-text">IWrite-blockers are portable tools used in drive acquisitions. It
+                                allows
+                                read-only access to data storage devices without compromising the integrity of the data.
                             </p>
 
                             <div>
                                 <p class="tool-detail-headers">Personal Review</p>
-                                <p>Write-blockers are a MUST for investigations because it prevents evidence from being
+                                <p>I think write-blockers are a MUST for investigations because it prevents evidence
+                                    from being
                                     compromised. The instructions that came with the tool were easily understood and
                                     provided sufficient steps to utilize the write-blocker.
                                 </p>
@@ -353,10 +321,10 @@
                             <div>
                                 <p class="tool-detail-headers">Personal Notes on Usage</p>
                                 <ul>
-                                    <li>Pay attention to the labels over each cable port. This will help you know where
-                                        to plug in each of the necessary cords.
+                                    <li><b>Pay attention to the labels over each cable port</b> to know where
+                                        to plug in each of the necessary cords
                                     </li>
-                                    <li>Be sure to <b>clean up the write-blocker</b> after using it.
+                                    <li>Be sure to <b>clean up the write-blocker</b> after using it
                                     </li>
                                 </ul>
                             </div>
@@ -393,11 +361,11 @@
                         <div class="col-md-6">
                             <h2 class="card-title">Netcat</h2>
                         </div>
-                        <div class="col-md-6" style="padding-top: 10px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
+                        <div class="star-box col-md-6">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
                         </div>
                     </div>
 
@@ -412,8 +380,8 @@
 
                             <div>
                                 <p class="tool-detail-headers">Personal Review</p>
-                                <p>The process to copy a hard drive was simple - within five steps, this imaging tool
-                                    can complete the task. I found the tool to be very helpful, easy-to-use, and secure.
+                                <p>I found the tool to be very helpful and easy-to-use, especially since I did not have
+                                    to copy and paste the command-line outputs into a separate document after each run.
                                     The best thing is that it is a command-line tool, so no dowloading of software is
                                     necessary.
                                 </p>
@@ -423,8 +391,8 @@
                                 <p class="tool-detail-headers">Personal Notes on Usage</p>
                                 <ul>
                                     <li>To use Netcat, use the <b>nc [options] [host] [port]</b> syntax in the Command
-                                        Prompt</li>
-                                    <li>Being new to Netcat, this is a <a
+                                        Line</li>
+                                    <li>This is a <a
                                             href="https://kapeli.com/cheat_sheets/Netcat.docset/Contents/Resources/Documents/index"
                                             style="color: blue;">cheat sheet </a> with helpful commands</li>
                                 </ul>
@@ -459,12 +427,11 @@
                         <div class="col-md-6">
                             <h2 class="card-title">dd</h2>
                         </div>
-                        <div class="col-md-6" style="padding-top: 10px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
+                        <div class="star-box col-md-6">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
                         </div>
                     </div>
 
@@ -477,14 +444,15 @@
 
                             <div>
                                 <p class="tool-detail-headers">Personal Review</p>
-                                <p>Again, one advantage of using dd over other tools is that is a command-line tool.
+                                <p>I was impressed at how simple this tool was to use. Again, one advantage of using dd
+                                    over other similar tools is that is a command-line tool.
                                 </p>
                             </div>
 
                             <div>
                                 <p class="tool-detail-headers">Personal Notes on Usage</p>
                                 <ul>
-                                    <li>The syntax for using dd in the Command Prompt is <b>dd [operand]...</b>
+                                    <li>The syntax for using dd in the Command Line is <b>dd [operand]...</b>
                                     </li>
                                 </ul>
                             </div>
@@ -519,10 +487,10 @@
                         <div class="col-md-6">
                             <h2 class="card-title">LiME</h2>
                         </div>
-                        <div class="col-md-6" style="padding-top: 10px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
+                        <div class="star-box col-md-6">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
                         </div>
                     </div>
 
@@ -583,11 +551,11 @@
                         <div class="col-md-6">
                             <h2 class="card-title">Snort</h2>
                         </div>
-                        <div class="col-md-6" style="padding-top: 10px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
+                        <div class="star-box col-md-6">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
                         </div>
                     </div>
 
@@ -657,15 +625,16 @@
 
                     <div class="row">
                         <div class="col-md-6">
-                            <p class="card-text">Wireshark is a widely used network packet analyzer as it analyzes all
-                                traffic passed over a network. It is free and
-                                open-source. It has many capabilities such as
+                            <p class="card-text">Wireshark is a widely used network packet analyzer that analyzes all
+                                traffic passed over a network. It is free, open source, and has many capabilities such
+                                as
                                 network troubleshooting, analysis, and protocol development.
                             </p>
 
                             <div>
                                 <p class="tool-detail-headers">Personal Review</p>
-                                <p>This software is very robust and it can be overwhelming at times with so many tools
+                                <p>I think Wireshark is very robust, but it can be overwhelming at times with so many
+                                    tools
                                     and features. However, once a packet has been captured,
                                     a wide range of information and analyses are available.
                                 </p>
@@ -711,12 +680,12 @@
                         <div class="col-md-6">
                             <h2 class="card-title">VirusTotal</h2>
                         </div>
-                        <div class="col-md-6" style="padding-top: 10px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
+                        <div class="star-box col-md-6">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
                         </div>
                     </div>
 
@@ -779,11 +748,11 @@
                         <div class="col-md-6">
                             <h2 class="card-title">Volatility</h2>
                         </div>
-                        <div class="col-md-6" style="padding-top: 10px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
+                        <div class="star-box col-md-6">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
                         </div>
                     </div>
 
@@ -806,9 +775,9 @@
                                 <p class="tool-detail-headers">Personal Notes on Usage</p>
                                 <ul>
                                     <li>Volatility uses Python 2.6 or higher, <b>not</b> Python 3</li>
-                                    <li>There are lots of possible commands and, as a result, lots of different outputs.
-                                        Depending on what specific information you are looking for, <b>be sure to use
-                                            the right command</b></li>
+                                    <li>Depending on what specific information you are looking for, <b>be sure to use
+                                            the right command</b> since there are lots of different commands and outputs
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -848,12 +817,12 @@
                         <div class="col-md-6">
                             <h2 class="card-title">FTK</h2>
                         </div>
-                        <div class="col-md-6" style="padding-top: 10px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
-                            <img src="img/star.png" height="30px;">
+                        <div class="star-box col-md-6">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
                         </div>
                     </div>
 
@@ -861,7 +830,7 @@
                         <div class="col-md-6">
                             <p class="card-text">Forensic Toolkit, or FTK, is a computer forensics software made by
                                 AccessData. FTK
-                                scans a hard drive looking for various information using an aggregation of the most
+                                scans a hard drive and looks for various information using an aggregation of the most
                                 common forensic tools.
                             </p>
 
@@ -876,9 +845,9 @@
                             <div>
                                 <p class="tool-detail-headers">Personal Notes on Usage</p>
                                 <ul>
-                                    <li>Similar to Wireshark, there are lots of available features. Read documentation
-                                        online to learn about all the helpful features you can use</li>
-                                    <li>It might be helpful to <b>create separate and unique bookmakrs</b> in FTK to
+                                    <li>Similar to Wireshark, there are lots of available features so it would be helpful to read documentation
+                                        online to learn about all the features you can use</li>
+                                    <li>It might be good to <b>create separate and unique bookmarks</b> in FTK to
                                         store evidence you find, depending on where you found the evidence in FTK</li>
                                 </ul>
                             </div>
@@ -908,16 +877,364 @@
                 </div>
             </div>
 
+            <h5 id="malwareanalysis" class="title-left">MALWARE ANALYSIS</h5>
+
+            <!-- Blog Post -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="card-title">Yara</h2>
+                        </div>
+                        <div class="star-box col-md-6">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="card-text">Yara is a popular, open source signature format for files and malware. It
+                                provides a rule-based approach based on textual or binary patterns to create
+                                descriptions of malware groups. It can also search for combinations of strings and
+                                includes
+                                pattern types such as static strings, hex strings (basic wildcards, jumps) and regex.
+
+                            </p>
+
+                            <div>
+                                <p class="tool-detail-headers">Personal Review</p>
+                                <p>I enjoyed using Yara for malware analysis. The template for writing Yara rules was
+                                    very simple to implement. I was impressed at the various text or binary patterns I
+                                    could create with it.
+                                </p>
+                            </div>
+
+                            <div>
+                                <p class="tool-detail-headers">Personal Notes on Usage</p>
+                                <ul>
+                                    <li>Although Yara can be downloaded from Git, it is easier to install in the Command
+                                        Line: <b>sudo apt-get install yara</b> </li>
+                                    <li>Template for writing YARA rules:</li>
+                                    rule ExampleRule <br>
+                                    { <br>
+                                    <span style="display: inline-block; padding-left: 10px;">
+                                        strings: <br>
+                                        $my_text_string = "text here" <br>
+                                        $my_hex_string = { E2 34 A1 C8 23 FB } <br><br>
+
+                                        condition: <br>
+                                        $my_text_string or $my_hex_string <br>
+                                    </span>
+                                    <br>
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <img class="tool-image" src="img/yara.png" alt="Yara">
+                            <figcaption class="tool-image-caption">Photo Credit:
+                                https://www.limacharlie.io/blog/2019/11/21/introducing-yara-inbound-log-file-scanning
+                            </figcaption>
+                            <br>
+                            <div>
+                                <p class="tool-detail-headers">Sources</p>
+                                <ul>
+                                    <li>
+                                        <p>Source URL:
+                                            <a href="https://github.com/VirusTotal/yara/releases"
+                                                style="color: blue;">https://github.com/VirusTotal/yara/releases</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>Local Source: N/A</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Post -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="card-title">Suricata</h2>
+                        </div>
+                        <div class="star-box col-md-6">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="card-text">Suricata is an open signature format for network packets. It performs
+                                string matching on payloads of packets, looking for keywords for protocol attributes
+                                (TCP port, HTTP URI).
+                            </p>
+
+                            <div>
+                                <p class="tool-detail-headers">Personal Review</p>
+                                <p>Suricata is probably my least favorite malware analysis tool because it is
+                                    challenging to understand and implement anything beyond a simple signature.
+                                </p>
+                            </div>
+
+                            <div>
+                                <p class="tool-detail-headers">Personal Notes on Usage</p>
+                                <ul>
+                                    <li>Although Suricata can be downloaded online, it is easier to install in the
+                                        Command
+                                        Line: <b>sudo apt-get install suricata</b> </li>
+                                    <li>Template for writing YARA rules:</li>
+                                    <img src="img/suricata-rule-example.PNG" style="width: 100%; height: 100%;"><br>
+
+                                    <span style="color: red">red</span> is the <b>action</b>, <span
+                                        style="color: green;">green</span> is the <b>header</b> and <span
+                                        style="color: blue;">blue</span> are the <b>options</b>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <img class="tool-image" src="img/suricata.png" alt="Suricata">
+                            <figcaption class="tool-image-caption">Photo Credit:
+                                https://suricata-ids.org/
+                            </figcaption>
+                            <br>
+                            <div>
+                                <p class="tool-detail-headers">Sources</p>
+                                <ul>
+                                    <li>
+                                        <p>Source URL:
+                                            <a href="https://suricata-ids.org/download/"
+                                                style="color: blue;">https://suricata-ids.org/download/</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>Local Source: N/A</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Post -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="card-title">grep</h2>
+                        </div>
+                        <div class="star-box col-md-6">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="card-text">Grep is a very common command-line tool used for searching text files.
+                                It
+                                looks through logs, configs, and etc files. It can also test signatures for malware.
+                            </p>
+
+                            <div>
+                                <p class="tool-detail-headers">Personal Review</p>
+                                <p>Grep is one of my favorite tools to use for malware analysis and for many other types
+                                    of analyses. I found it extremely helpful in searching through many and large files.
+                                </p>
+                            </div>
+
+                            <div>
+                                <p class="tool-detail-headers">Personal Notes on Usage</p>
+                                <ul>
+                                    <li>Grep is available in the Command Line: <b>sudo apt-get
+                                            install grep</b></li>
+                                    <li>There are many variants of grep -- <b>egrep, pgrep, fgrep.</b></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <img class="tool-image" src="img/grep.jpg" alt="Grep">
+                            <figcaption class="tool-image-caption">Photo Credit:
+                                https://www.reddit.com/r/linux/comments/co6fq8/grep_by_juliaevans/
+                            </figcaption>
+                            <br>
+                            <div>
+                                <p class="tool-detail-headers">Sources</p>
+                                <ul>
+                                    <li>
+                                        <p>Source URL: N/A</p>
+                                    </li>
+                                    <li>
+                                        <p>Local Source: N/A</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Post -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="card-title">BPF</h2>
+                        </div>
+                        <div class="star-box col-md-6">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="card-text">BPF (Berkeley Packet Filters) is an open packet filtering syntax. It can
+                                be used in Linux OS.
+                            </p>
+
+                            <div>
+                                <p class="tool-detail-headers">Personal Review</p>
+                                <p>I found this tool to be a bit tricky to use. Although it is a common command-line
+                                    tool, there is not much documentation for implementation tips. It might had be more
+                                    useful if I knew more about <b>tcpdump</b>.
+                                </p>
+                            </div>
+
+                            <div>
+                                <p class="tool-detail-headers">Personal Notes on Usage</p>
+                                <ul>
+                                    <li>BPF is available in the Command Line: <b>sudo apt-get
+                                            install tcpdump</b></li>
+                                    <li>Sometimes the output of BPF may be difficult to understand, so be sure to <b>use
+                                            resources like Stack Overflow</b> to know what the results mean</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <img class="tool-image" src="img/bpf.png" alt="BPF">
+                            <figcaption class="tool-image-caption">Photo Credit:
+                                http://www.brendangregg.com/blog/2016-03-05/linux-bpf-superpowers.html
+                            </figcaption>
+                            <br>
+                            <div>
+                                <p class="tool-detail-headers">Sources</p>
+                                <ul>
+                                    <li>
+                                        <p>Source URL: N/A</p>
+                                    </li>
+                                    <li>
+                                        <p>Local Source: N/A</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h5 id="reverseengineering" class="title-left">REVERSE ENGINEERING</h5>
+
+            <!-- Blog Post -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="card-title">Radare2</h2>
+                        </div>
+                        <div class="star-box col-md-6">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                            <img class="star" src="img/star.png">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="card-text">Radare2 is an open source framework for reverse engineering,
+                                specifically analyzing and modifying binaries. One advantage of Radare2 is that it runs
+                                inside of a terminal
+                                window and can be used over a SSH connection or on low power machines.
+                            </p>
+
+                            <div>
+                                <p class="tool-detail-headers">Personal Review</p>
+                                <p>Not being very familiar with reverse engineering and assembly code, I absolutely
+                                    loved the visual modes of Radare2 that helped show the flow of an exectuable. This
+                                    was a lot more organized and easy to understand than rummaging through the hex code.
+                                </p>
+                            </div>
+
+                            <div>
+                                <p class="tool-detail-headers">Personal Notes on Usage</p>
+                                <ul>
+                                    <li>Radare2 can be installed in the Command Line: <b>sudo apt-get install
+                                            radare2</b></li>
+                                    <li>When using an tool for reverse engineering, it might be helpful to have a
+                                        <b>good understanding of assembly code</b> beforehand</li>
+                                    <li>I found these two guides to be very helpful in using Radare2: <br> "<a
+                                            href="https://slashersoftware.wordpress.com/2018/02/25/crash-course-in-radare2/"
+                                            style="color: blue;">Crash
+                                            Course in Radare2</a>" and "<a
+                                            href="https://radare.gitbooks.io/radare2book/content/refcard/intro.html"
+                                            style="color: blue;">Radare2
+                                            Reference Card"</a>"</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <img class="tool-image" src="img/radare2.jpg" alt="Radare2">
+                            <figcaption class="tool-image-caption">Photo Credit:
+                                https://slashersoftware.wordpress.com/2018/02/25/crash-course-in-radare2/
+                            </figcaption>
+                            <br>
+                            <div>
+                                <p class="tool-detail-headers">Sources</p>
+                                <ul>
+                                    <li>
+                                        <p>Source URL:
+                                            <a href="https://www.radare.org/n/"
+                                                style="color: blue;">https://www.radare.org/n/</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>Local Source: N/A</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
             <!-- Pagination -->
-            <ul class="pagination justify-content-center mb-4">
+            <!-- <ul class="pagination justify-content-center mb-4">
                 <li class="page-item">
                     <a class="page-link" href="#">&larr; Older</a>
                 </li>
                 <li class="page-item disabled">
                     <a class="page-link" href="#">Newer &rarr;</a>
                 </li>
-            </ul>
+            </ul> -->
         </div>
         <!-- </div> -->
         <!-- /.row -->

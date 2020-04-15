@@ -1338,7 +1338,8 @@ footer .credits a {
 }
 
 .intro-forensics {
-  padding: 20px;
+  /* padding-top: 50px; */
+  padding-top: 20px;
   text-align: center;
 }
 
@@ -1346,6 +1347,16 @@ footer .credits a {
   padding-bottom: 20px;
   display: inline-block;
   width: 100%;
+}
+
+.star-box {
+  height: 30px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.star {
+  height: 30px;
 }
 
 .tool-detail-headers {
