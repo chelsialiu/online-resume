@@ -1325,16 +1325,10 @@ footer .credits a {
 /*======================================
 //--//-->   PERSONAL FORENSICS STYLES
 ======================================*/
-.center {
-  text-align: center;
-}
-
-.divider {
-  padding-top: 20px;
-}
-
 .body-forensics {
   padding-top: 56px;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 .intro-forensics {
@@ -1347,6 +1341,19 @@ footer .credits a {
   padding-bottom: 20px;
   display: inline-block;
   width: 100%;
+}
+
+.subsection-header {
+  font-size: x-large;
+  position: relative;
+}
+
+.center {
+  text-align: center;
+}
+
+.divider {
+  padding-top: 20px;
 }
 
 .star-box {
